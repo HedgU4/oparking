@@ -29,6 +29,7 @@ gem 'spring',        group: :development
 gem "twitter-bootstrap-rails"
 gem 'rails_12factor', group: :production
 gem 'whenever', :require => false
+gem 'responders', '~> 2.0'
 gem 'telegram-bot-ruby'
 
 # Use ActiveModel has_secure_password

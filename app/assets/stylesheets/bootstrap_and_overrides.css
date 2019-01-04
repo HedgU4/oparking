@@ -73,14 +73,14 @@ body, html {
     }
 
     .nav .show-all > a {
-        background: url("baseline_visibility_black_48dp.png") no-repeat;
+        background: url("/assets/baseline_visibility_black_48dp.png") no-repeat;
         background-position: left 20px center;
         background-size: 50px;
         padding-left: 100px;
     }
 
     .nav .show-free-only > a {
-        background: url("round_filter_list_black_48dp.png") no-repeat;
+        background: url("/assets/round_filter_list_black_48dp.png") no-repeat;
         background-position: left 20px center;
         background-size: 50px;
         padding-left: 100px;

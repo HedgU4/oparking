@@ -1,4 +1,4 @@
-class AddVaultUidToParking < ActiveRecord::Migration
+class AddVaultUidToParking < ActiveRecord::Migration[5.1]
   def change
     add_column :parkings, :vault_uid, :string
   end

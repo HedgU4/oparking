@@ -1,3 +1,3 @@
-class Driver < ActiveRecord::Base
+class Driver < ApplicationRecord
   has_one :place
 end

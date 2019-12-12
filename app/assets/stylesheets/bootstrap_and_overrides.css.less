@@ -1,0 +1,102 @@
+@import "twitter/bootstrap/bootstrap";
+
+// Glyphicons are not required by default, uncomment the following lines to enable them.
+//@glyphiconsEotPath: font-url("glyphicons-halflings-regular.eot");
+//@glyphiconsEotPath_iefix: font-url("glyphicons-halflings-regular.eot?#iefix");
+//@glyphiconsWoffPath: font-url("glyphicons-halflings-regular.woff");
+//@glyphiconsTtfPath: font-url("glyphicons-halflings-regular.ttf");
+//@glyphiconsSvgPath: font-url("glyphicons-halflings-regular.svg#glyphicons_halflingsregular");
+//
+//@import "twitter/bootstrap/glyphicons.less";
+
+// Your custom LESS stylesheets goes here
+//
+// Since bootstrap was imported above you have access to its mixins which
+// you may use and inherit here
+//
+// If you'd like to override bootstrap's own variables, you can do so here as well
+// See http://twitter.github.com/bootstrap/customize.html#variables for their names and documentation
+//
+// Example:
+// @link-color: #ff0000;
+
+body {
+  background: #003e65;
+  height: 100% !important;
+}
+
+body, html {
+  height: 100%;
+}
+
+.container {
+  max-width: 980px;
+}
+
+
+.push {
+  height: 30px;
+}
+
+.place_number {
+  font-size: 14pt;
+}
+
+.occupied {
+  background-color: #f2dede;
+}
+
+.free {
+  background-color: #d6e9c6;
+}
+
+.white {
+  color: white;
+}
+
+@media (max-width: 1024px)
+{
+  input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block {
+    font-size: 3em;
+    padding: 0.5em 1em;
+  }
+
+  .btn-block {
+    font-size: 3em;
+    padding: 0.5em 1em;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .place_number {
+    font-size: 3em;
+  }
+
+  .panel-info>.panel-heading {
+    font-size: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .navbar-nav>li>a {
+    font-size: 3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+
+  .nav .show-all > a {
+    background: url("/assets/baseline_visibility_black_48dp.png") no-repeat;
+    background-position: left 20px center;
+    background-size: 50px;
+    padding-left: 100px;
+  }
+
+  .nav .show-free-only > a {
+    background: url("/assets/round_filter_list_black_48dp.png") no-repeat;
+    background-position: left 20px center;
+    background-size: 50px;
+    padding-left: 100px;
+  }
+}

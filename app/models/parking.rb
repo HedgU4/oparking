@@ -1,3 +1,3 @@
-class Parking < ActiveRecord::Base
+class Parking < ApplicationRecord
   has_many :places
 end

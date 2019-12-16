@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
-ruby '2.4.4'
+ruby '2.6.4'
 
 gem 'json'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.1'
 # Use postgresql as the database for Active Record
-gem 'pg', '~> 0.18'
+gem 'pg', '~> 0.21'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5'
 gem 'twitter-bootstrap-rails'

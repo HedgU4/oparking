@@ -206,7 +206,7 @@ DEPENDENCIES
   jquery-rails
   json
   less-rails
-  pg (~> 0.18)
+  pg (~> 0.21)
   rails (= 5.1)
   rails_12factor
   responders (~> 2.0)
@@ -221,7 +221,7 @@ DEPENDENCIES
   whenever
 
 RUBY VERSION
-   ruby 2.4.4p296
+   ruby 2.6.4p104
 
 BUNDLED WITH
-   1.17.1
+   1.17.2

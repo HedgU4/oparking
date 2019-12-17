@@ -21,7 +21,7 @@
                 <% if place.occupied %>
                   <%= f.submit button_title(place), class: 'btn btn-lg btn-block btn-primary', data: { confirm: "Освободить место ##{place.number}?" }%>
                 <% else %>
-                  <%= f.submit button_title(place), class: 'btn btn-lg btn-block btn-primary' %>
+                  <%= f.submit button_title(place), class: 'btn btn-lg btn-block btn-primary', data: { confirm: "Занять место ##{place.number}?"} %>
                 <% end %>
                 </div>
               </div>
